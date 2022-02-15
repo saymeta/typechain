@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2015",
+    "sourceMap": true,
+    "outDir": "dist" // 모든 컴파일 된 것들은 dist 안으로
+  },
+  "include": ["src/**/*"], // 모든 타입스크립트는 src 안으로
+  "exclude": ["node_modules"]
+}
